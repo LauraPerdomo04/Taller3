@@ -33,7 +33,8 @@ El modelo basado en redes neuronales parece estar mayoritariamente esgado hacia 
 
 ### 4. Segmentación de cajas de compensación familiar (subsidio):
 #### ¿Qué cajas de compensación parecen ser mayoritariamente diferentes a las demás?
-Las cajas de compensacion que pertenecen son 2 las cuales se encuentran mas alejadas del resto de las cajas de compensacion
+Teniendo 4 clusters, las cajas de compensacion son 2 (caja de compensacion familiar CAFAM, y  Caja de Compensacion Familiar del Valle del Cauca) las cuales se encuentran mas alejadas del resto de las cajas de compensacion
 #### ¿A partir de qué características utilizadas para el entrenamiento del modelo se podría explicar la razón por la que las cajas anteriores fueron agrupadas en clusters tan pequeños?
+A partir de las caracteristicas de la poblacion cubierta por las cuales se puede explicar que las cajas fueron agrupadas en clusteres mas pequeños fueron las que tenian la mayor poblacion cubierta con mayor diferencia, esta caracteristica tambien presento la mayor desviacion estandar.
 #### ¿Se pueden obtener resultados más homogéneos utilizando cantidades diferentes de clusters para el entrenamiento? Entienda homogeneidad como clusters con cantidades similares de instancias de datos.
 En perspectiva si, se desarrollaron pruebas aumentando la cantidad de clusters, donde vemos que aunque si existen diferencias entre cantidades, los valores tienden a ser mas homogeneos con mas cantidad de clusters
